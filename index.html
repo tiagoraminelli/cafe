@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Café, Recetas de Café, Cultura de Café">
     <meta name="description" content="Bienvenidos a El Cafecito. El lugar para el amante de café, donde vas a encontrar recetas y la mejor informacion"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <title>El cafecito ☕/ Inicio</title> 
     <link rel="stylesheet" href="./css/styles.css"> 
 
@@ -19,15 +20,34 @@
 </head>
 <body>
     <header>
-        <nav class="barraNavegacion">
-            <ul>
-                <li><a href="./folders/cultura-cafe.html">Cultura de Cafecito</a></li>
-                <li><a href="./folders/recetas.html">Recetas de Cafecito</a></li>
-                <li class="cafecito-animacion"><a href="index.html"> <img src="./assets/cafe-logo.png" width="120px"></a></li>
-                <li><a href="./folders/mision.html">Nuestra misión</a></li>
-                <li><a href="./folders/formulario.html">Sumate a la cafeinomanía</a></li>
-            </ul>
-        </nav>
+    
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <li><a href="../folders/cultura-cafe.html">Cultura de Cafecito</a></li>
+                  </li>
+                  <li class="nav-item">
+                    <li><a href="../folders/recetas.html">Recetas de Cafecito</a></li>
+                  </li>
+                  <li class="nav-item">
+                    <li class="cafecito-animacion"><a href="./index.html"> <img src="../assets/cafe-logo.png" width="120px"></a></li>
+                  </li>
+                  <li class="nav-item">
+                    <li><a href="../folders/mision.html">Nuestra misión</a></li>
+                  </li>
+                  <li class="nav-item">
+                    <li><a href="../folders/formulario.html">Sumate a la cafeinomanía</a></li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
     </header>
     <main>
         <h2 id="tituloPagina">¡Bienvenidos!</h2>
@@ -45,5 +65,7 @@
             Sitio creado por Daniel Bavio, con amor y cafeina ☕
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
